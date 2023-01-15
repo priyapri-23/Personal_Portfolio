@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg1"
+    android:outlineAmbientShadowColor="@color/teal_200"
+    android:outlineSpotShadowColor="@color/black"
+    >
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="100dp"
+        android:src="@drawable/dashboardimage">
+
+    </de.hdodenhof.circleimageview.CircleImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Priya_Priya"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Observer | Learner | Achiever"
+        android:textStyle="bold|italic"
+        android:textAlignment="center"
+        android:layout_marginLeft="90dp"
+        android:textSize="18dp"
+        >
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:text="@string/a_tech_enthusiast_learning_app_development_I_am_currently_Pursuing_B._tech_in_Computer_Science_and_engineering"
+        android:textSize="17dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textStyle="bold|italic"
+        android:textColor="@color/black">
+
+    </TextView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TO KNOW MORE DETAILS..."
+        android:onClick="switchActivity"
+        >
+
+    </Button>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="51dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/github"
+            android:tag="https://github.com/sassy-bugs"
+            android:onClick="Github">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/linkdn"
+            android:tag="https://www.linkedin.com/in/priya-priya-14980122b/"
+            android:onClick="linkedin">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:src="@drawable/gmail"
+            android:tag="https://mail.google.com/mail/u/?authuser=priyap25112003@gmail.com"
+            android:onClick="gmail">
+
+        </ImageView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp">
+
+        <ImageView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="83dp"
+            android:src="@drawable/twitter">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="69dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:src="@drawable/insta">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

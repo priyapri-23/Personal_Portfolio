@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PERSONAL PORTFOLIO</string>
+    <string name="Hello_Everyone_this_is_the_first_step">Hello Everyone! This is the first step</string>
+    <string name="tap_to_enter">Tap to enter</string>
+    <string name="Priya_Priya">Priya_Priya</string>
+    <string name="a_tech_enthusiast_learning_app_development_I_am_currently_Pursuing_B._tech_in_Computer_Science_and_engineering">a_tech_enthusiast_learning_app_development_I_am_currently_Pursuing_B._tech_in_Computer_Science_and_engineering.</string>
+    <string name="from_Indira_Gandhi_Delhi_Technical_University_for_Women_igdtuw_delhi_I_am_always_open_to_learn_new_tech_and_new_things.I_am_very_quick_learner_and_would_love_to_make_new_projects_The_techical_skills_are_in_kotlin_python_and_c_c_plus_plus_.You_can_contact_me_at_priyap25112003_gmail_com">from_Indira_Gandhi_Delhi_Technical_University_for_Women_igdtuw_delhi_I_am_always_open_to_learn_new_tech_and_new_things. I_am_very_quick_learner_and_would_love_to_make_newprojects.The techical skills are in kotlin python and c/c plus plus.You can contact me at priyap25112003@gmail.com/</string>
+    <string name="about1">~from Indira Gandhi Delhi Technical University for Women(igdtuw,delhi)</string>
+    <string name="about2">~I am always open to learn new tech and new things.I_am_very_quick_learner_and_would_love_to_make_new_projects</string>
+    <string name="about3">~The_techical_skills_are_in_kotlin_python_and_c_c_plus_plus</string>
+    <string name="about4">You_can_contact_me_at_priyap25112003_gmail_com</string>
+</resources>
